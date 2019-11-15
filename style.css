@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #aaa;
+    background-color: #eee;
     padding: 0;
     width: 100%;
     overflow: hidden scroll;
@@ -63,7 +63,7 @@ header {
     min-height: 300px;
     margin: 0 auto; 
     background: #fff;
-    margin-top: 140px;
+    margin-top: 130px;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -94,8 +94,10 @@ header {
     margin-left: 50px;
 }
 
-h3 {
+.desc h3 {
     font-size: 30px;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 .desc-details {
