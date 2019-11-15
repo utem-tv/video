@@ -9,6 +9,8 @@ body {
     padding: 0;
     width: 100%;
     overflow: hidden scroll;
+    display: flex;
+    
 }
 
 header {
@@ -57,10 +59,15 @@ header {
 }
 
 .video-container {
-    width: 50%;
+    width: 1000px;
+    min-height: 300px;
     margin: 0 auto; 
     background: #fff;
     margin-top: 140px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
 
 .video-box {
@@ -69,16 +76,13 @@ header {
     height: 250px;
     align-items: center;    
     justify-content: center;
-    margin: 10px auto;
-}
-
-.video {
-    width: 320px;
-    height: 180px;
+    margin-top: 40px;
+    
 }
 
 .video-thumbnail {
-    width:100%;
+    width: 400px;
+    height: 260px;
 }
 
 .desc {
