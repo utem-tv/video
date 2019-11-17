@@ -134,7 +134,40 @@ header {
 }
 
 @media only screen and (max-width: 800px) {
-    * {
-        transform: scale(-2)
+    .video-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: space-around;
+        justify-content: space-around;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    .video-box {
+        flex-direction: column;
+        margin-bottom: 25px;
+        justify-content: space-around;
+        min-height: 500px;
+        max-height: 800px;
+        border: 1px solid;
+    }
+
+    .desc{
+        width: 100%;
+        margin-top: 2px;
+        height: 400px;
+        margin-left: 0;
+        border: 1px solid;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .desc h3 {
+        font-size: 1.5em;
     }
 }
