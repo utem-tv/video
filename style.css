@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #eee;
+    background-color: #efefef;
     padding: 0;
     width: 100%;
     overflow: hidden scroll;
@@ -141,8 +141,7 @@ header {
         align-items: space-around;
         justify-content: space-around;
         margin-left: auto;
-        margin-right: auto;
-        
+        margin-right: auto; 
     }
 
     .video-box {
@@ -151,7 +150,6 @@ header {
         justify-content: space-around;
         min-height: 500px;
         max-height: 800px;
-        border: 1px solid;
     }
 
     .desc{
@@ -159,7 +157,6 @@ header {
         margin-top: 2px;
         height: 400px;
         margin-left: 0;
-        border: 1px solid;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
