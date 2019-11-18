@@ -76,6 +76,20 @@ header {
     padding-bottom: 40px;
 }
 
+.tabs-container {
+    border: 1px solid;
+    align-self: flex-start;
+}
+
+.tabs-container ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.tabs-container ul li {
+    list-style: none;
+}
+
 .video-box {
     width: 90%;
     display: flex;
