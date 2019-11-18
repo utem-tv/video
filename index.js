@@ -1,4 +1,4 @@
-
+/*
 let videos = document.getElementsByClassName("video-box");
 
 for (let i = 0; i < videos.length; i++) {
@@ -6,3 +6,4 @@ for (let i = 0; i < videos.length; i++) {
 }
 
 console.log(videos);
+*/

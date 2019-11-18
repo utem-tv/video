@@ -77,7 +77,6 @@ header {
 }
 
 .tabs-container {
-    border: 1px solid;
     align-self: flex-start;
 }
 
@@ -88,6 +87,16 @@ header {
 
 .tabs-container ul li {
     list-style: none;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.tabs-container ul li:first-child {
+    color: #5fffe5;
+}
+
+.tabs-container ul li:hover {
+    color: #5fffe5;
 }
 
 .video-box {
